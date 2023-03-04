@@ -8,7 +8,7 @@ error voting_is_not_closed();
 error voting_is_not_ongoing();
 error already_voted();
 
-contract Lottery {
+contract Voter {
     /**Type declaration */
     /**State Variables */
     enum State {
